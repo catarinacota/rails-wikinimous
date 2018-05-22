@@ -1,0 +1,42 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+
+
+.navbar {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: #e7e7e7;
+  color: #777;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar p {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+}
+
+.navbar a {
+  color: #777;
+}
+
+.main {
+  margin: 50px 150px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.main a {
+  color: #337ab7;
+}
+
+.main p {
+  color: #333333;
+}
+
