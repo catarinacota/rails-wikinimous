@@ -36,7 +36,20 @@
   color: #337ab7;
 }
 
-.main p {
-  color: #333333;
+.main-show a {
+  color: #337ab7;
+  opacity: 0.7;
 }
 
+.main-show a:hover {
+  text-decoration: none;
+  opacity: 1.0;
+}
+
+.main p {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-top: 10px;
+}

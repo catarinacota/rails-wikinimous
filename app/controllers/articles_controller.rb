@@ -14,7 +14,7 @@ class ArticlesController < ApplicationController
 
   def create
     Article.create(article_params)
-    redirect_to articles_path
+    redirect_to root_path
   end
 
   def edit
@@ -24,13 +24,13 @@ class ArticlesController < ApplicationController
   def update
     @article = Article.find(params[:id])
     @article.update(article_params)
-    redirect_to articles_path
+    redirect_to root_path
   end
 
   def destroy
     @article = Article.find(params[:id])
     @article.destroy
-    redirect_to articles_path
+    redirect_to root_path
   end
 
   private
